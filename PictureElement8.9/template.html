@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Page Title Goes Here</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+    <h1>Picture Element</h1>
+    <picture> 
+        <source media="(min-width: 1200px)" 
+        srcset="large.jpg"> 
+        <source media="(min-width: 800px)"
+        srcset="medium.jpg"> 
+        <source media="(min-width: 400px)" 
+        srcset="small.jpg"> 
+        <img src="fallback.jpg" 
+        alt="waterwheel"> 
+    </picture>
+</body>
+</html>
